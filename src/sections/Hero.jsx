@@ -5,7 +5,7 @@ import { ArrowRight, Clock, ShieldCheck } from 'lucide-react';
 /**
  * EASYMOVE HOSPITALITY - HERO SECTION
  * Design : Cinématique, Épuré, Side-Info Luxe
- * Image : hero.jpg (à placer dans le dossier /public)
+ * Slogan : Voyagez léger. Voyagez libre.
  */
 const Hero = () => {
   const fadeIn = {
@@ -31,13 +31,13 @@ const Hero = () => {
       {/* --- CONTENU PRINCIPAL (TEXTES & BOUTONS) --- */}
       <div className="relative z-20 max-w-5xl w-full">
         <motion.div {...fadeIn}>
-          {/* Titre Principal Editorial */}
+          {/* Titre Principal Editorial mis à jour avec le nouveau slogan */}
           <h1 className="mb-10">
             <span className="block font-serif text-5xl md:text-8xl text-white font-light tracking-tight leading-[1.1]">
-              Voyagez librement.
+              Voyagez léger.
             </span>
             <span className="block font-serif text-4xl md:text-6xl text-brand-gold italic font-extralight mt-3 opacity-90">
-              Nous nous occupons du reste.
+              Voyagez libre.
             </span>
           </h1>
 
